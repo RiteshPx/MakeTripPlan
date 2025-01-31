@@ -1,0 +1,29 @@
+.tour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.no-tour {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.refresh-btn {
+    margin-top: 20px;
+    background-color: rgb(226, 244, 172);
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.refresh-btn:hover {
+    background-color: rgb(200, 220, 150);
+    color: darkred;
+}

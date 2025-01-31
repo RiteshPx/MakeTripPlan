@@ -1,0 +1,73 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    padding: 6px;
+    margin-top: 50px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.read{
+    color: blue;
+    display: inline;
+}
+
+.image-style {
+    width: 400px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+  
+.image-style:hover {
+    transform: scale(1.02); /* Zoom effect on hover */
+}
+  
+.btn{
+    margin: 20px;
+    background-color: rgb(226, 244, 172);
+    color: red;     
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(200, 220, 150); /* Slightly darker background on hover */
+    color: darkred; /* Darker text color on hover */
+}
+
+.allDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.price{
+    color: rgb(38, 61, 234);
+    font-weight:bold;
+}
+
+.name{
+    font-weight: 700;
+    margin: 7px;
+}
+
+.detail{
+    font-weight: 200;
+    text-align: justify;
+    display: inline;
+}
