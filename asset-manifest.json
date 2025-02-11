@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MakeTripPlan/static/css/main.e941fbf2.css",
+    "main.js": "/MakeTripPlan/static/js/main.f77acd12.js",
+    "index.html": "/MakeTripPlan/index.html",
+    "main.e941fbf2.css.map": "/MakeTripPlan/static/css/main.e941fbf2.css.map",
+    "main.f77acd12.js.map": "/MakeTripPlan/static/js/main.f77acd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e941fbf2.css",
+    "static/js/main.f77acd12.js"
+  ]
+}
